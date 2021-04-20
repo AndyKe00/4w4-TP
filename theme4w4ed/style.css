@@ -1216,7 +1216,7 @@ body.home::after {
   display: flex;
   width: 300vw;
   height: 30vh;
-  transition: transform .5s;
+  transition: transform .5s ease-in-out;
   flex-wrap: nowrap;
 }
 
@@ -1422,6 +1422,7 @@ Animation de la dtroisième  barre bar3
   flex-wrap: wrap;
   justify-content: space-around;
   margin-right: 4%;
+  margin-top: 2%;
   /* This container is needed to position the front and back side */
   /* Do an horizontal flip when you move the mouse over the flip box container */
   /* Le z-index des images fait en sorte que je ne suis pas capable de faire en sorte que
@@ -1496,14 +1497,17 @@ Animation de la dtroisième  barre bar3
   margin-top: 0;
 }
 
+/* Centrer le titre et la description */
 .page-header .page-title {
   font-size: 4em;
   color: #0059ff;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .page-header .archive-description {
   font-size: 1em;
   color: black;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
