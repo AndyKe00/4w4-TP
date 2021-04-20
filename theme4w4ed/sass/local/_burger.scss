@@ -14,10 +14,10 @@ Bouton burger
     position : relative;
     width : $largeur_burger;
     height : $largeur_burger;
-    //border : 1px solid #888;
     border : none;
     border-radius : 50%;
     overflow: hidden;
+    
     div{
         position: absolute;
         top:0;

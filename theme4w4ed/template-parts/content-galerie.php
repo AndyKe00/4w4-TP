@@ -10,10 +10,17 @@
 ?>
 
 <article>
-<a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail( 'thumbnail' ); ?></a>
-	<div class="galerie_info">
-		<?php the_title(); ?>
-	</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+		<?php the_post_thumbnail( 'thumbnail' ); ?>
+    </div>
+    <div class="flip-card-back">
+      <h1><?php the_title(); ?></h1>
+      <p><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></p>
+    </div>
+  </div>
+</div> 
 </article>
 
 
