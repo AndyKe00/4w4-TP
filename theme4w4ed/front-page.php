@@ -58,6 +58,11 @@ get_header();
 					$precedent = $tPropriété['typeCours'];
 				endwhile; ?>
 			</section>
+
+			<section class="nouvelles">
+<!-- 				<button id="bouton_nouvelles">Dernières nouvelles</button> -->
+				<section></section>
+			</section>
 		<?php endif; ?>
 	
 

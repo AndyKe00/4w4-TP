@@ -1206,6 +1206,10 @@ body.home::after {
   }
 }
 
+.nouvelles {
+  margin: 2% 4% 2% 3%;
+}
+
 /* Local/carrousel
 --------------------------------------------- */
 .carrousel {
