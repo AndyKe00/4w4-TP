@@ -59,6 +59,15 @@ get_header();
 				endwhile; ?>
 			</section>
 
+			 <!-- FORMULAIRE AJOUT D'UN NOUVEL ARTICLE DANS LA CATEGORIE 'Nouvelles' -->
+
+			 <section class="admin-rapide">
+				<h3>Ajouter une nouvelle</h3>
+					<input type="text" name="title" placeholder="Titre">
+					<textarea name="content" placeholder="Contenu"></textarea>
+					<button id="bout-rapide">Créer une nouvelle</button>
+			 </section>
+
 			<section class="nouvelles">
 <!-- 				<button id="bouton_nouvelles">Dernières nouvelles</button> -->
 				<section></section>

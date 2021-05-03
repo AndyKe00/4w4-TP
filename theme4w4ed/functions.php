@@ -182,6 +182,10 @@ function theme4w4ed_scripts() {
 		wp_enqueue_script( 'theme4w4ed-carrousel' );
 		wp_enqueue_script( 'theme4w4ed-carrousel-2' );
 		wp_enqueue_script( 'theme4w4ed-rest-api' );
+		wp_localize_script( 'theme4w4ed-rest-api', 'monObjJS', array(
+			'nonce' => wp_create_nonce("wp_rest"),
+			'URLDomaine' => get_site_url()
+		));
 	}
 
 

@@ -1538,4 +1538,50 @@ Animation de la dtroisième  barre bar3
   color: black;
   text-align: center;
 }
+
+/* Local/sidebar
+--------------------------------------------- */
+.widget-area {
+  margin: 0% 0% 3% 3%;
+  background-color: #0096db;
+  text-align: center;
+}
+
+/* Local/footer
+--------------------------------------------- */
+.site-footer {
+  border-top: 1px solid black;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.site-footer .widget-footer {
+  text-align: right;
+  margin-right: 5%;
+}
+
+/* Local/formulaire
+--------------------------------------------- */
+.admin-rapide {
+  width: 97%;
+  margin-left: 1%;
+  margin-top: 3%;
+  background-color: #0096db;
+}
+
+.admin-rapide h3 {
+  text-align: center;
+  color: #e14141;
+}
+
+.admin-rapide input,
+.admin-rapide textarea,
+.admin-rapide button {
+  margin: 0% 0% 2% 10%;
+}
+
+.admin-rapide textarea {
+  width: 80vw;
+  height: 25vh;
+}
 /*# sourceMappingURL=style.css.map */
