@@ -664,12 +664,20 @@ textarea {
 --------------------------------------------------------------*/
 .site {
   display: grid;
-  grid-template-columns: 80% 20%;
-  grid-template-areas: "header header" "main sidebar" "footer footer";
+  grid-template-columns: 100%;
+  grid-template-areas: "header header" "main main" "sidebar sidebar" "footer footer";
+}
+
+@media (min-width: 1200px) {
+  .site {
+    grid-template-columns: 80% 20%;
+    grid-template-areas: "header header" "main sidebar" "footer footer";
+  }
 }
 
 .site-header {
   grid-area: header;
+  height: 25vh;
 }
 
 .site-main {
@@ -1526,17 +1534,21 @@ Animation de la dtroisième  barre bar3
 }
 
 /* Centrer le titre et la description */
-.page-header .page-title {
+.page-header .page-title, .page-header .entry-title, .entry-header .page-title, .entry-header .entry-title {
   font-size: 4em;
   color: #0059ff;
   margin-bottom: 0;
   text-align: center;
 }
 
-.page-header .archive-description {
+.page-header .archive-description, .entry-header .archive-description {
   font-size: 1em;
   color: black;
   text-align: center;
+}
+
+.page-header .archive-description p, .entry-header .archive-description p {
+  margin: 0;
 }
 
 /* Local/sidebar

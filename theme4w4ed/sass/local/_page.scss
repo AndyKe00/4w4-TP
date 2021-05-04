@@ -19,9 +19,10 @@
 }
 
 /* Centrer le titre et la description */
-.page-header
+.page-header, .entry-header
 {
-    .page-title
+
+    .page-title, .entry-title
     {
         font-size: 4em;
         color: rgb(0, 89, 255);
@@ -34,6 +35,11 @@
         font-size: 1em;
         color: black;
         text-align: center;
+
+        p
+        {
+            margin: 0;
+        }
     }
 }
 
