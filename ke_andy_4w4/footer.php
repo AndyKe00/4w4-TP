@@ -17,8 +17,13 @@
 				<?php dynamic_sidebar('footer-1'); ?>
 			<?php endif ?>
 		</div>
+
+		<ul class="references">
+			<li><a href="https://www.cmaisonneuve.qc.ca/"> Site Officiel du Collège</a></li>
+			<li><a href="https://www.facebook.com/CollegeMaisonneuve"> Page Facebook du Collège</a></li>
+		</ul>
+
 	</footer><!-- #colophon -->
-</div><!-- #page -->
 
 <?php wp_footer(); ?>
 

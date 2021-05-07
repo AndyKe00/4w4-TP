@@ -1574,13 +1574,28 @@ Animation de la dtroisième  barre bar3
 --------------------------------------------- */
 .site-footer {
   border-top: 1px solid black;
+  background-color: #0096db;
   width: 100vw;
   overflow: hidden;
 }
 
 .site-footer .widget-footer {
-  text-align: right;
-  margin-right: 5%;
+  text-align: center;
+}
+
+.site-footer .references {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.site-footer .references li {
+  width: 15vw;
+}
+
+.site-footer .references a {
+  text-decoration: none;
+  display: block;
 }
 
 /* Local/formulaire
