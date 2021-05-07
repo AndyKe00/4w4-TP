@@ -89,7 +89,12 @@ body.home::after {
 }
 
 .nouvelles {
-    margin: 2% 4% 2% 3%;
+    margin: 5% 4% 2% 3%;
+
+    .wp-block-column:nth-child(2)
+    {
+        margin-left: 25%;
+    }
 }
 
 #annonce{
