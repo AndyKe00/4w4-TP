@@ -43,4 +43,17 @@
     }
 }
 
+/* Centrer l'image du thumbnail dans les cours spécifiques
+** et l'ajuster un peu pour donner de l'espace
+*/
+.post-thumbnail
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 

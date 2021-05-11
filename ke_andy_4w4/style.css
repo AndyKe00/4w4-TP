@@ -1214,6 +1214,7 @@ body.home::after {
   }
 }
 
+/* Design général pour les nouvelles */
 .nouvelles {
   margin: 5% 4% 2% 3%;
 }
@@ -1222,6 +1223,7 @@ body.home::after {
   margin-left: 25%;
 }
 
+/* Design de la barre annonce en rouge pour qqch d'important */
 #annonce {
   text-align: center;
   background-color: rgba(255, 0, 0, 0.397);
@@ -1562,8 +1564,21 @@ Animation de la dtroisième  barre bar3
   margin: 0;
 }
 
+/* Centrer l'image du thumbnail dans les cours spécifiques
+** et l'ajuster un peu pour donner de l'espace
+*/
+.post-thumbnail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 /* Local/sidebar
 --------------------------------------------- */
+/* Ajustement et alignement du sidebar */
 .widget-area {
   margin: 0% 0% 3% 3%;
   background-color: #0096db79;
@@ -1572,18 +1587,24 @@ Animation de la dtroisième  barre bar3
 
 /* Local/footer
 --------------------------------------------- */
+/* Ajustement du footer pour mieux le représenter avec
+* le design de mon site
+*/
 .site-footer {
   border-top: 1px solid black;
   background-color: #0096db;
   width: 100vw;
   overflow: hidden;
+  /* Ajustements des liens dans le footer */
 }
 
 .site-footer .widget-footer {
+  font-size: clamp(1rem, 2vh, 3rem);
   text-align: center;
 }
 
 .site-footer .references {
+  font-size: clamp(1rem, 2vh, 3rem);
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -1600,6 +1621,7 @@ Animation de la dtroisième  barre bar3
 
 /* Local/formulaire
 --------------------------------------------- */
+/* Design du formulaire pour bien respecter mon thème général du site */
 .admin-rapide {
   width: 97%;
   margin-left: 1%;

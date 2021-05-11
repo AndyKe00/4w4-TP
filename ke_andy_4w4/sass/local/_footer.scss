@@ -1,3 +1,7 @@
+/* Ajustement du footer pour mieux le représenter avec
+* le design de mon site
+*/
+
 .site-footer
 {
     
@@ -8,11 +12,15 @@
 
     .widget-footer
     {
+        font-size: clamp(1rem, 2vh, 3rem);
         text-align: center;
     }
 
+    /* Ajustements des liens dans le footer */
+    
     .references
     {
+        font-size: clamp(1rem, 2vh, 3rem);
         list-style-type: none;
         display: flex;
         justify-content: center;

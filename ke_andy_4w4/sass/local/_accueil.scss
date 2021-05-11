@@ -1,9 +1,6 @@
-
-
 body.home{
     width : 100vw;
     height : 500vh;
-
 
     #primary {
         margin-left:0;
@@ -88,6 +85,8 @@ body.home::after {
      }
 }
 
+/* Design général pour les nouvelles */
+
 .nouvelles {
     margin: 5% 4% 2% 3%;
 
@@ -96,6 +95,8 @@ body.home::after {
         margin-left: 25%;
     }
 }
+
+/* Design de la barre annonce en rouge pour qqch d'important */
 
 #annonce{
    text-align: center;
