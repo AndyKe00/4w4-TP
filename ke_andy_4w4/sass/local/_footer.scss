@@ -4,15 +4,15 @@
 
 .site-footer
 {
-    
     border-top: 1px solid black;
     background-color: #0096db;
+    margin-top: 3%;
     width: 100vw;
     overflow: hidden;
 
     .widget-footer
     {
-        font-size: clamp(1rem, 2vh, 3rem);
+        font-size: clamp(0.5rem, 2vh, 3rem);
         text-align: center;
     }
 
@@ -20,7 +20,7 @@
     
     .references
     {
-        font-size: clamp(1rem, 2vh, 3rem);
+        font-size: clamp(0.5rem, 2vh, 3rem);
         list-style-type: none;
         display: flex;
         justify-content: center;

@@ -18,7 +18,6 @@
        maRequete.open('GET', requete);
 
        maRequete.onload = function () {
-           //console.log(maRequete)
 
            if (maRequete.status >= 200 && maRequete.status < 400) {
                let data = JSON.parse(maRequete.responseText);
@@ -31,10 +30,6 @@
                }
                elmDom.innerHTML = chaine;
             }
-
-           else {
-               console.log('La connexion est faite mais il y a une erreur')
-           }
        }
 
        maRequete.onerror = function () {
@@ -49,15 +44,14 @@
 
     bouton_ajout = document.getElementById('bout-rapide');
     bouton_ajout.addEventListener('mousedown', function(){
-        //console.log("ajout");
 
         let monArticle = {
             "title": document.querySelector('.admin-rapide [name="title"]').value,
             "content": document.querySelector('.admin-rapide [name="content"]').value,
             "status": "publish",
-            "categories": [34]
+            "categories": [33] // Rechangé à 33, sinon mon nouveau article Nouvelle apparaît dans la barre d'annonce
         }
-        // console.log(JSON.stringify(monArticle));
+
         let creerArticle = new XMLHttpRequest();
         creerArticle.open("POST", monObjJS.URLDomaine + '/wp-json/wp/v2/posts');
         creerArticle.setRequestHeader("X-WP-Nonce", monObjJS.nonce);

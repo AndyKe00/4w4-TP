@@ -56,4 +56,12 @@
     margin-bottom: 5%;
 }
 
+/* Placer les éléments sans changer les margins dans les autres pages  */
+
+.site-branding,
+.entry-content
+{
+    margin-left: 5rem;
+}
+
 

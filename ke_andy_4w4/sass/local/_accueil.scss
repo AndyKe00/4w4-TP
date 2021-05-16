@@ -87,7 +87,8 @@ body.home::after {
 
 /* Design général pour les nouvelles */
 
-.nouvelles {
+.nouvelles 
+{
     margin: 5% 4% 2% 3%;
 
     .wp-block-column:nth-child(2)
@@ -100,7 +101,7 @@ body.home::after {
 
 #annonce{
    text-align: center;
-   background-color: rgba(255, 0, 0, 0.397); 
+   background-color: rgba(255, 0, 0, 0.692); 
    padding-top: 1%;
    padding-bottom: 1%;
 }
