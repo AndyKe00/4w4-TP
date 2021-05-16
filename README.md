@@ -1,4 +1,4 @@
-# 4w4-Tp
+# 4w4-Tp2
 
 ## Auteur
 Andy Ke
@@ -16,4 +16,8 @@ du contraste.
 
 ## Lien Webdev
 https://e1740707.webdev.cmaisonneuve.qc.ca/4w4/
+
+## Quelques notes...
+J'ai perdu plusieurs commits en transférant le .git dans
+le dossier thème...
 
